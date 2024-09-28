@@ -3,7 +3,7 @@ require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  defaultNetwork: arb,
+  defaultNetwork: "arb",
   networks: {
     arb: {
       url: process.env.RPC_URL,
